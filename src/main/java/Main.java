@@ -4,5 +4,9 @@ public class Main {
     System.out.println("ABC");
     System.out.println("ZZZ");
     System.out.println("123");
+
+    System.out.println("XYZ");
+    System.out.println("ABC");
+    System.out.println("ZZZ");
   }
 }
