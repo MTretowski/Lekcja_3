@@ -5,12 +5,18 @@ public class Main {
     System.out.println("ZZZ");
     System.out.println("123");
 
-    for(int i = 0; i < 5; i++){
+    for (int i = 0; i < 5; i++) {
       System.out.println(i);
     }
 
     System.out.println("XYZ");
     System.out.println("ABC");
     System.out.println("ZZZ");
+
+    int j = 5;
+    while (j > 0) {
+      System.out.println(j);
+      j--;
+    }
   }
 }
