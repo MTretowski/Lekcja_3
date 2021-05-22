@@ -2,9 +2,6 @@ package package1;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.internal.verification.AtLeast;
-import org.mockito.internal.verification.AtMost;
-import org.mockito.internal.verification.Times;
-import org.mockito.verification.Timeout;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -35,6 +32,5 @@ public class MainTest {
     new Main().doSomething(consolePrinterMock);
 
     verify(consolePrinterMock, new AtLeast(3)).print(anyString());
-
   }
 }
