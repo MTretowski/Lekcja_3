@@ -13,10 +13,10 @@ public class Main {
     System.out.println("ABC");
     System.out.println("ZZZ");
 
-    int x = 9;
+    int j = 5;
     do {
-      System.out.println(x);
-      x--;
-    } while (x > 0);
+      System.out.println(j);
+      j--;
+    } while (j > 0);
   }
 }
