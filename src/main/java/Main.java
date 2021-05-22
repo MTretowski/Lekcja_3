@@ -14,9 +14,9 @@ public class Main {
     System.out.println("ZZZ");
 
     int j = 5;
-    while (j > 0) {
+    do {
       System.out.println(j);
       j--;
-    }
+    } while (j > 0);
   }
 }
